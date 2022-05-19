@@ -116,13 +116,13 @@ This will allow the package to start automatically when ```run_trials.py``` is e
 Replace the line
 
 ```
-<param name="base_local_planner" value="base_local_planner/TrajectoryPlannerROS">
+<param name="base_local_planner" value="base_local_planner/TrajectoryPlannerROS"/>
 ```
 
 with
 
 ```
-<param name="base_local_planner" value="">
+<param name="base_local_planner" value=""/>
 ```
 
 This will disable the default local planner. An error message will be shown at launch, but this can be ignored.
